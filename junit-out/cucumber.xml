@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="5" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="154.511488">
+<testcase classname="Facebook User Registration" name="User Registration Form" time="47.244432">
+<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at stepDefinition.registrationPageDefinition.user_is_on_Login_Page(registrationPageDefinition.java:64)&#13;&#10;&#9;at ✽.Then User is on Login Page(./src/main/java/Features/FBUserRegistration.feature:9)&#13;&#10;"><![CDATA[Then User Enters firstname and lastname as "User1" and "user1"..............passed
+Then user Enters Email and new password as "user1@" and "user1123"..........passed
+Then user selects birth day month year as "5" and "4" and "1988"............passed
+Then user selects gender as "Male"..........................................passed
+Then User Clicks on SignUp button...........................................passed
+Then User is on Login Page..................................................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at stepDefinition.registrationPageDefinition.user_is_on_Login_Page(registrationPageDefinition.java:64)
+	at ✽.Then User is on Login Page(./src/main/java/Features/FBUserRegistration.feature:9)
+]]></failure>
+</testcase>
+<testcase classname="Facebook User Registration" name="User Registration Form 2" time="28.425907">
+<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at stepDefinition.registrationPageDefinition.user_is_on_Login_Page(registrationPageDefinition.java:64)&#13;&#10;&#9;at ✽.Then User is on Login Page(./src/main/java/Features/FBUserRegistration.feature:9)&#13;&#10;"><![CDATA[Then User Enters firstname and lastname as "user2" and "user2"..............passed
+Then user Enters Email and new password as "user2@" and "user2123"..........passed
+Then user selects birth day month year as "20" and "10" and "1991"..........passed
+Then user selects gender as "Female"........................................passed
+Then User Clicks on SignUp button...........................................passed
+Then User is on Login Page..................................................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at stepDefinition.registrationPageDefinition.user_is_on_Login_Page(registrationPageDefinition.java:64)
+	at ✽.Then User is on Login Page(./src/main/java/Features/FBUserRegistration.feature:9)
+]]></failure>
+</testcase>
+<testcase classname="Facebook User Registration" name="User Registration Form 3" time="26.511018">
+<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at stepDefinition.registrationPageDefinition.user_is_on_Login_Page(registrationPageDefinition.java:64)&#13;&#10;&#9;at ✽.Then User is on Login Page(./src/main/java/Features/FBUserRegistration.feature:9)&#13;&#10;"><![CDATA[Then User Enters firstname and lastname as "user3" and "user3"..............passed
+Then user Enters Email and new password as "user3@" and "user3123"..........passed
+Then user selects birth day month year as "28" and "2" and "2003"...........passed
+Then user selects gender as "Female"........................................passed
+Then User Clicks on SignUp button...........................................passed
+Then User is on Login Page..................................................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at stepDefinition.registrationPageDefinition.user_is_on_Login_Page(registrationPageDefinition.java:64)
+	at ✽.Then User is on Login Page(./src/main/java/Features/FBUserRegistration.feature:9)
+]]></failure>
+</testcase>
+<testcase classname="Facebook User Registration" name="User Registration Form 4" time="26.738395">
+<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at stepDefinition.registrationPageDefinition.user_is_on_Login_Page(registrationPageDefinition.java:64)&#13;&#10;&#9;at ✽.Then User is on Login Page(./src/main/java/Features/FBUserRegistration.feature:9)&#13;&#10;"><![CDATA[Then User Enters firstname and lastname as "user4" and "user4"..............passed
+Then user Enters Email and new password as "user4@" and "user4123"..........passed
+Then user selects birth day month year as "30" and "6" and "2000"...........passed
+Then user selects gender as "Male"..........................................passed
+Then User Clicks on SignUp button...........................................passed
+Then User is on Login Page..................................................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at stepDefinition.registrationPageDefinition.user_is_on_Login_Page(registrationPageDefinition.java:64)
+	at ✽.Then User is on Login Page(./src/main/java/Features/FBUserRegistration.feature:9)
+]]></failure>
+</testcase>
+<testcase classname="Facebook User Registration" name="User Registration Form 5" time="25.591736">
+<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at stepDefinition.registrationPageDefinition.user_is_on_Login_Page(registrationPageDefinition.java:64)&#13;&#10;&#9;at ✽.Then User is on Login Page(./src/main/java/Features/FBUserRegistration.feature:9)&#13;&#10;"><![CDATA[Then User Enters firstname and lastname as "user5" and "user5"..............passed
+Then user Enters Email and new password as "user5@" and "user5123"..........passed
+Then user selects birth day month year as "21" and "8" and "1995"...........passed
+Then user selects gender as "Female"........................................passed
+Then User Clicks on SignUp button...........................................passed
+Then User is on Login Page..................................................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at stepDefinition.registrationPageDefinition.user_is_on_Login_Page(registrationPageDefinition.java:64)
+	at ✽.Then User is on Login Page(./src/main/java/Features/FBUserRegistration.feature:9)
+]]></failure>
+</testcase>
+</testsuite>
